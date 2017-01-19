@@ -1,0 +1,45 @@
+PODS:
+  - Blindside (1.3.1)
+  - BlindsidedStoryboard (0.3.0):
+    - Blindside (~> 1.1)
+  - Cedar (1.0)
+  - KSDeferred (0.3.3)
+  - PivotalCoreKit/UIKit/SpecHelper (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Extensions (= 0.3.2)
+    - PivotalCoreKit/UIKit/SpecHelper/Stubs (= 0.3.2)
+    - PivotalCoreKit/UIKit/SpecHelper/Support (= 0.3.2)
+  - PivotalCoreKit/UIKit/SpecHelper/Extensions (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Support
+  - PivotalCoreKit/UIKit/SpecHelper/Stubs (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Stubs/Stubs-noarc (= 0.3.2)
+    - PivotalCoreKit/UIKit/SpecHelper/Support
+  - PivotalCoreKit/UIKit/SpecHelper/Stubs/Stubs-noarc (0.3.2):
+    - PivotalCoreKit/UIKit/SpecHelper/Support
+  - PivotalCoreKit/UIKit/SpecHelper/Support (0.3.2)
+
+DEPENDENCIES:
+  - Blindside
+  - BlindsidedStoryboard
+  - Cedar (from `https://github.com/pivotal/cedar.git`)
+  - KSDeferred
+  - PivotalCoreKit/UIKit/SpecHelper
+
+EXTERNAL SOURCES:
+  Cedar:
+    :git: https://github.com/pivotal/cedar.git
+
+CHECKOUT OPTIONS:
+  Cedar:
+    :commit: 0c2c76af7a03d9112efbbe85429e52cdb6e72232
+    :git: https://github.com/pivotal/cedar.git
+
+SPEC CHECKSUMS:
+  Blindside: 5e32e80fa301ddff70c3f5735cb44467cf3195ff
+  BlindsidedStoryboard: 65676f607e6a19da47994883a58c487c45f6fbfc
+  Cedar: a641e5ed0353bd9d45782ce365d0822b7342cce3
+  KSDeferred: 1d90bddfff8b387a49deeb6579e63e170f4f2ce2
+  PivotalCoreKit: 6a850f72593da33bedd9b53fb03ac68b37c47e72
+
+PODFILE CHECKSUM: 43b26fc42b701f6dcfdf7e1dc54c546ad41e1096
+
+COCOAPODS: 1.1.1

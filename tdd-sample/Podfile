@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target 'tdd-sample' do
+  pod 'Blindside'
+  pod 'BlindsidedStoryboard'
+  pod 'KSDeferred'
+end
+
+target 'tdd-sampleTests' do
+  pod 'PivotalCoreKit/UIKit/SpecHelper'
+  pod 'Cedar', :git => 'https://github.com/pivotal/cedar.git'
+end
