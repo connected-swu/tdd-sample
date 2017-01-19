@@ -5,8 +5,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 #define TsStubCurrentDate(CurrentDate) \
 NSDate.class stub_method(@selector(date)) \
 .and_return(CurrentDate)
@@ -20,5 +18,3 @@ NSDate.class stub_method(@selector(date)) \
                      minute:(NSInteger)minute
                      second:(NSInteger)second;
 @end
-
-NS_ASSUME_NONNULL_END

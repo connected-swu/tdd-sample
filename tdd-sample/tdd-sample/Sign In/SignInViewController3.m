@@ -1,14 +1,14 @@
 //
-//  SignInViewController.m
+//  SignInViewController3.m
 //  tdd-sample
 //
 
-#import "SignInViewController.h"
+#import "SignInViewController3.h"
 
-@interface SignInViewController ()
+@interface SignInViewController3 ()
 
 @end
 
-@implementation SignInViewController
+@implementation SignInViewController3
 
 @end

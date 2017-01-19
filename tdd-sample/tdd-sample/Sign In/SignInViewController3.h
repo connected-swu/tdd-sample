@@ -1,10 +1,10 @@
 //
-//  SignInViewController.h
+//  SignInViewController3.h
 //  tdd-sample
 //
 
 #import <UIKit/UIKit.h>
 
-@interface SignInViewController : UIViewController
+@interface SignInViewController3 : UIViewController
 
 @end

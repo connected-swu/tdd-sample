@@ -5,7 +5,11 @@
 1. `pod install`
 2. `open tdd-sample.xcworkspace`
 
-## Stories
+## Project Contents
+
+### Stories
+
+Completed with BDD RSpec style testing
 
 ```
 Given:  Jimmy opens the tdd-sample app
@@ -24,3 +28,5 @@ Given:  Jimmy is on the sign-in view
 When:  Jimmy enters his password and presses 'SIGN IN'
 Then:  Jimmy is signed-in
 ```
+
+

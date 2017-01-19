@@ -37,12 +37,59 @@
                     <view key="view" contentMode="scaleToFill" id="PGM-Fv-YEE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="_e" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hfe-tN-818">
+                                <rect key="frame" x="40" y="165" width="295" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="_p" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TqY-0Y-qlM">
+                                <rect key="frame" x="40" y="215" width="295" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NC7-4K-mH0">
+                                <rect key="frame" x="40" y="265" width="295" height="30"/>
+                                <state key="normal" title="_si"/>
+                                <connections>
+                                    <action selector="signInButtonTapped:" destination="Yx6-DC-F3m" eventType="touchUpInside" id="rm9-xe-I1f"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bSj-nX-1Ig">
+                                <rect key="frame" x="60" y="60" width="255" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="eFE-Mn-sm9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NC7-4K-mH0" firstAttribute="leading" secondItem="PGM-Fv-YEE" secondAttribute="leading" constant="40" id="4Jj-yB-oy0"/>
+                            <constraint firstItem="TqY-0Y-qlM" firstAttribute="top" secondItem="hfe-tN-818" secondAttribute="bottom" constant="20" id="BRi-hX-Orr"/>
+                            <constraint firstItem="hfe-tN-818" firstAttribute="leading" secondItem="PGM-Fv-YEE" secondAttribute="leading" constant="40" id="EB8-Li-oUn"/>
+                            <constraint firstItem="bSj-nX-1Ig" firstAttribute="top" secondItem="bRP-Rt-iZ1" secondAttribute="bottom" constant="40" id="F3Y-wG-tYt"/>
+                            <constraint firstAttribute="trailing" secondItem="hfe-tN-818" secondAttribute="trailing" constant="40" id="Lkv-OZ-2BL"/>
+                            <constraint firstItem="hfe-tN-818" firstAttribute="top" secondItem="bSj-nX-1Ig" secondAttribute="bottom" constant="30" id="N5n-DJ-3jf"/>
+                            <constraint firstItem="TqY-0Y-qlM" firstAttribute="leading" secondItem="PGM-Fv-YEE" secondAttribute="leading" constant="40" id="VGv-4V-YPi"/>
+                            <constraint firstItem="bSj-nX-1Ig" firstAttribute="leading" secondItem="PGM-Fv-YEE" secondAttribute="leading" constant="60" id="Yfk-8y-qmE"/>
+                            <constraint firstAttribute="trailing" secondItem="NC7-4K-mH0" secondAttribute="trailing" constant="40" id="mUP-xV-bca"/>
+                            <constraint firstItem="NC7-4K-mH0" firstAttribute="top" secondItem="TqY-0Y-qlM" secondAttribute="bottom" constant="20" id="mpu-Ng-VTh"/>
+                            <constraint firstAttribute="trailing" secondItem="bSj-nX-1Ig" secondAttribute="trailing" constant="60" id="opv-az-brZ"/>
+                            <constraint firstAttribute="trailing" secondItem="TqY-0Y-qlM" secondAttribute="trailing" constant="40" id="qcD-PH-Afc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="hfe-tN-818" id="FQt-nM-4VW"/>
+                        <outlet property="logoImageView" destination="bSj-nX-1Ig" id="59v-Ti-gk0"/>
+                        <outlet property="passwordTextField" destination="TqY-0Y-qlM" id="MaV-qK-6JE"/>
+                        <outlet property="signInButton" destination="NC7-4K-mH0" id="3VN-Tc-XyM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Odd-yy-9Bu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="719" y="35"/>
+            <point key="canvasLocation" x="798" y="123"/>
         </scene>
         <!--Sign In View Controller3-->
         <scene sceneID="pnO-Gc-ANn">
@@ -60,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t7e-TS-8Lo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1422" y="35"/>
+            <point key="canvasLocation" x="1470" y="123"/>
         </scene>
     </scenes>
 </document>

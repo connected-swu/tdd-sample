@@ -14,7 +14,16 @@
 		3AA168A61E310FD200E694CB /* SignInViewController_LessFragileSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1689F1E310FD200E694CB /* SignInViewController_LessFragileSpec.mm */; };
 		3AA168A71E310FD200E694CB /* NSDate+TSMocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168A21E310FD200E694CB /* NSDate+TSMocking.m */; };
 		3AA168A81E310FD200E694CB /* UIView+TSTraversing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168A41E310FD200E694CB /* UIView+TSTraversing.m */; };
-		3AA168AA1E31126200E694CB /* SignInViewController_LandingSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168A91E31126200E694CB /* SignInViewController_LandingSpec.mm */; };
+		3AA168B01E31158300E694CB /* TsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168AF1E31158300E694CB /* TsModule.m */; };
+		3AA168B31E31159500E694CB /* TsSpecModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168B21E31159500E694CB /* TsSpecModule.m */; };
+		3AA168B61E31160A00E694CB /* SpecAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168B51E31160A00E694CB /* SpecAppDelegate.m */; };
+		3AA168BC1E3124FA00E694CB /* Empty_SignInViewController_LandingSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168BB1E3124FA00E694CB /* Empty_SignInViewController_LandingSpec.mm */; };
+		3AA168BE1E31250F00E694CB /* Empty_SignInViewController_ActionsSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168BD1E31250F00E694CB /* Empty_SignInViewController_ActionsSpec.mm */; };
+		3AA168C01E3155BC00E694CB /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168BF1E3155BC00E694CB /* DataService.m */; };
+		3AA168C31E3165E800E694CB /* UIViewController+SpecInstantiation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168C21E3165E800E694CB /* UIViewController+SpecInstantiation.m */; };
+		3AA168C61E31690600E694CB /* UIViewController+SpecLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168C51E31690600E694CB /* UIViewController+SpecLifecycle.m */; };
+		3AA168C91E316E9300E694CB /* TsUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168C81E316E9300E694CB /* TsUser.m */; };
+		3AA168CC1E316F7800E694CB /* TsSignInEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA168CB1E316F7800E694CB /* TsSignInEvent.m */; };
 		3AF726A61E3109E800CB3D19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF726A51E3109E800CB3D19 /* main.m */; };
 		3AF726A91E3109E800CB3D19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF726A81E3109E800CB3D19 /* AppDelegate.m */; };
 		3AF726AF1E3109E800CB3D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF726AD1E3109E800CB3D19 /* Main.storyboard */; };
@@ -49,7 +58,24 @@
 		3AA168A21E310FD200E694CB /* NSDate+TSMocking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TSMocking.m"; sourceTree = "<group>"; };
 		3AA168A31E310FD200E694CB /* UIView+TSTraversing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TSTraversing.h"; sourceTree = "<group>"; };
 		3AA168A41E310FD200E694CB /* UIView+TSTraversing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TSTraversing.m"; sourceTree = "<group>"; };
-		3AA168A91E31126200E694CB /* SignInViewController_LandingSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SignInViewController_LandingSpec.mm; sourceTree = "<group>"; };
+		3AA168AE1E31158300E694CB /* TsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsModule.h; sourceTree = "<group>"; };
+		3AA168AF1E31158300E694CB /* TsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsModule.m; sourceTree = "<group>"; };
+		3AA168B11E31159500E694CB /* TsSpecModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsSpecModule.h; sourceTree = "<group>"; };
+		3AA168B21E31159500E694CB /* TsSpecModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsSpecModule.m; sourceTree = "<group>"; };
+		3AA168B41E31160A00E694CB /* SpecAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecAppDelegate.h; sourceTree = "<group>"; };
+		3AA168B51E31160A00E694CB /* SpecAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecAppDelegate.m; sourceTree = "<group>"; };
+		3AA168B81E31163D00E694CB /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		3AA168BB1E3124FA00E694CB /* Empty_SignInViewController_LandingSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Empty_SignInViewController_LandingSpec.mm; sourceTree = "<group>"; };
+		3AA168BD1E31250F00E694CB /* Empty_SignInViewController_ActionsSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Empty_SignInViewController_ActionsSpec.mm; sourceTree = "<group>"; };
+		3AA168BF1E3155BC00E694CB /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
+		3AA168C11E3165E800E694CB /* UIViewController+SpecInstantiation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SpecInstantiation.h"; sourceTree = "<group>"; };
+		3AA168C21E3165E800E694CB /* UIViewController+SpecInstantiation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SpecInstantiation.m"; sourceTree = "<group>"; };
+		3AA168C41E31690600E694CB /* UIViewController+SpecLifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SpecLifecycle.h"; sourceTree = "<group>"; };
+		3AA168C51E31690600E694CB /* UIViewController+SpecLifecycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SpecLifecycle.m"; sourceTree = "<group>"; };
+		3AA168C71E316E9300E694CB /* TsUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsUser.h; sourceTree = "<group>"; };
+		3AA168C81E316E9300E694CB /* TsUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsUser.m; sourceTree = "<group>"; };
+		3AA168CA1E316F7800E694CB /* TsSignInEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsSignInEvent.h; sourceTree = "<group>"; };
+		3AA168CB1E316F7800E694CB /* TsSignInEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsSignInEvent.m; sourceTree = "<group>"; };
 		3AF726A11E3109E800CB3D19 /* tdd-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tdd-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF726A51E3109E800CB3D19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AF726A71E3109E800CB3D19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,8 +128,9 @@
 		3AA1689D1E310FD200E694CB /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				3AA168BD1E31250F00E694CB /* Empty_SignInViewController_ActionsSpec.mm */,
+				3AA168BB1E3124FA00E694CB /* Empty_SignInViewController_LandingSpec.mm */,
 				3AA1689E1E310FD200E694CB /* SignInViewController_FragileSpec.mm */,
-				3AA168A91E31126200E694CB /* SignInViewController_LandingSpec.mm */,
 				3AA1689F1E310FD200E694CB /* SignInViewController_LessFragileSpec.mm */,
 			);
 			path = "Sign In";
@@ -114,10 +141,31 @@
 			children = (
 				3AA168A11E310FD200E694CB /* NSDate+TSMocking.h */,
 				3AA168A21E310FD200E694CB /* NSDate+TSMocking.m */,
+				3AA168B41E31160A00E694CB /* SpecAppDelegate.h */,
+				3AA168B51E31160A00E694CB /* SpecAppDelegate.m */,
+				3AA168B11E31159500E694CB /* TsSpecModule.h */,
+				3AA168B21E31159500E694CB /* TsSpecModule.m */,
 				3AA168A31E310FD200E694CB /* UIView+TSTraversing.h */,
 				3AA168A41E310FD200E694CB /* UIView+TSTraversing.m */,
+				3AA168C11E3165E800E694CB /* UIViewController+SpecInstantiation.h */,
+				3AA168C21E3165E800E694CB /* UIViewController+SpecInstantiation.m */,
+				3AA168C41E31690600E694CB /* UIViewController+SpecLifecycle.h */,
+				3AA168C51E31690600E694CB /* UIViewController+SpecLifecycle.m */,
 			);
 			path = "Test Infrastructure";
+			sourceTree = "<group>";
+		};
+		3AA168B71E31163D00E694CB /* Data and Services */ = {
+			isa = PBXGroup;
+			children = (
+				3AA168B81E31163D00E694CB /* DataService.h */,
+				3AA168BF1E3155BC00E694CB /* DataService.m */,
+				3AA168CA1E316F7800E694CB /* TsSignInEvent.h */,
+				3AA168CB1E316F7800E694CB /* TsSignInEvent.m */,
+				3AA168C71E316E9300E694CB /* TsUser.h */,
+				3AA168C81E316E9300E694CB /* TsUser.m */,
+			);
+			path = "Data and Services";
 			sourceTree = "<group>";
 		};
 		3AF726981E3109E800CB3D19 = {
@@ -146,11 +194,14 @@
 				3AF726A71E3109E800CB3D19 /* AppDelegate.h */,
 				3AF726A81E3109E800CB3D19 /* AppDelegate.m */,
 				3AF726B01E3109E800CB3D19 /* Assets.xcassets */,
+				3AA168B71E31163D00E694CB /* Data and Services */,
 				3AF726B51E3109E800CB3D19 /* Info.plist */,
 				3AF726B21E3109E800CB3D19 /* LaunchScreen.storyboard */,
 				3AF726AD1E3109E800CB3D19 /* Main.storyboard */,
 				3AA1688F1E310E0B00E694CB /* Sign In */,
 				3AF726A41E3109E800CB3D19 /* Supporting Files */,
+				3AA168AE1E31158300E694CB /* TsModule.h */,
+				3AA168AF1E31158300E694CB /* TsModule.m */,
 			);
 			path = "tdd-sample";
 			sourceTree = "<group>";
@@ -397,7 +448,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF726A91E3109E800CB3D19 /* AppDelegate.m in Sources */,
+				3AA168C91E316E9300E694CB /* TsUser.m in Sources */,
+				3AA168CC1E316F7800E694CB /* TsSignInEvent.m in Sources */,
+				3AA168C01E3155BC00E694CB /* DataService.m in Sources */,
 				3AA168961E310E0B00E694CB /* SignInViewController.m in Sources */,
+				3AA168B01E31158300E694CB /* TsModule.m in Sources */,
 				3AF726A61E3109E800CB3D19 /* main.m in Sources */,
 				3AA168981E310E0B00E694CB /* SignInViewController3.m in Sources */,
 				3AA168971E310E0B00E694CB /* SignInViewController2.m in Sources */,
@@ -409,10 +464,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA168A81E310FD200E694CB /* UIView+TSTraversing.m in Sources */,
+				3AA168B31E31159500E694CB /* TsSpecModule.m in Sources */,
+				3AA168BE1E31250F00E694CB /* Empty_SignInViewController_ActionsSpec.mm in Sources */,
 				3AA168A51E310FD200E694CB /* SignInViewController_FragileSpec.mm in Sources */,
+				3AA168B61E31160A00E694CB /* SpecAppDelegate.m in Sources */,
 				3AA168A71E310FD200E694CB /* NSDate+TSMocking.m in Sources */,
-				3AA168AA1E31126200E694CB /* SignInViewController_LandingSpec.mm in Sources */,
+				3AA168C61E31690600E694CB /* UIViewController+SpecLifecycle.m in Sources */,
+				3AA168BC1E3124FA00E694CB /* Empty_SignInViewController_LandingSpec.mm in Sources */,
 				3AA168A61E310FD200E694CB /* SignInViewController_LessFragileSpec.mm in Sources */,
+				3AA168C31E3165E800E694CB /* UIViewController+SpecInstantiation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

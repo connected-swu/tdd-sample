@@ -6,7 +6,6 @@
 #import <UIKit/UIKit.h>
 
 
-NS_ASSUME_NONNULL_BEGIN
 typedef BOOL (^TsViewTest)(UIView *candidate);
 
 @interface UIView (TSTraversing)
@@ -17,4 +16,3 @@ typedef BOOL (^TsViewTest)(UIView *candidate);
 - (UIView *)ts_first:(Class)klass withImageName:(NSString *)imageName;
 
 @end
-NS_ASSUME_NONNULL_END
